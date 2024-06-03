@@ -2,7 +2,7 @@
 
 ## General architecture
 
-::: mermaid
+```mermaid
 graph TB
 
     user1(User \n fa:fa-mobile)
@@ -77,4 +77,4 @@ class service-backend,service-frontend,service-database,pod-backend1,pod-backend
 class Cluster cluster;
 class user1,user2,user3 plain
 
-:::
+```
