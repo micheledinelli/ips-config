@@ -1,7 +1,6 @@
 baseURL = 'https://micheledinelli.github.io'
 languageCode = 'en-us'
 title = 'IPS'
-publishDir = "docs"
 
 [module]
     [[module.imports]]
