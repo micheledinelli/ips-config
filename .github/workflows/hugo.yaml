@@ -57,7 +57,7 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
-      - name: Build with Hugo
+      - name: Navigate to /docs directory and Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
@@ -70,7 +70,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: public
-          path: ../public
+          path: ${{ github.workspace }}/public
 
   # Deployment job
   deploy:
