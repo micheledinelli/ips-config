@@ -1,4 +1,4 @@
-baseURL = 'https://micheledinelli.github.io/ips-config'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'IPS'
 
