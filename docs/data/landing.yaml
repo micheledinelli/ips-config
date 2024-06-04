@@ -1,0 +1,69 @@
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+  badge:
+    text: v0.0.1
+    color: primary # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
+
+  title: "IPS"
+  subtitle: "Documentation for indoor positioning system. Scalable and easy to use."
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "screenshot-home.png" # filename of your hero image (including file extension)
+    alt: "Lotus Docs Screenshot" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  info: "**Open Source** MIT Licensed."
+
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
+  title: What is an IPS?
+  subtitle: IPS stands for Indoor Positioning System.
+
+  items:
+    - title: WiFi fingerprinting
+      icon: WiFi
+      description: Uses Receive Signal Strength to locate users.
+      ctaLink:
+        text: learn more
+        url: /docs/
+
+    - title: Room access control
+      icon: room
+      description: Control access to rooms based on user location.
+      ctaLink:
+        text: learn more
+        url: /docs/
+
+    - title: BLE devices scanning
+      icon: bluetooth
+      description: BLE devices as security devices while at work.
+      ctaLink:
+        text: learn more
+        url: /docs/
+
+    - title: Kubernetes orchestration
+      icon: handshake
+      description: Scalable and easy to use.
+      ctaLink:
+        text: learn more
+        url: /docs/
+
+imageCompare:
+  enable: false
