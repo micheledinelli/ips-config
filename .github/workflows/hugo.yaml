@@ -47,8 +47,8 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Navigate to /doc directory
-        run: cd doc
+      - name: Navigate to /docs directory
+        run: cd docs
 
       - name: Setup Pages
         id: pages
