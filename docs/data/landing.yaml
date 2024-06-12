@@ -42,28 +42,28 @@ featureGrid:
       description: Uses Receive Signal Strength to locate users.
       ctaLink:
         text: learn more
-        url: /docs/
+        url: docs/
 
     - title: Room access control
       icon: room
       description: Control access to rooms based on user location.
       ctaLink:
         text: learn more
-        url: /docs/
+        url: docs/
 
     - title: BLE devices scanning
       icon: bluetooth
       description: BLE devices as security devices while at work.
       ctaLink:
         text: learn more
-        url: /docs/
+        url: docs/
 
     - title: Kubernetes orchestration
       icon: handshake
       description: Scalable and easy to use.
       ctaLink:
         text: learn more
-        url: /docs/
+        url: docs/
 
 imageCompare:
   enable: false

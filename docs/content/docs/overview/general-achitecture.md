@@ -1,12 +1,21 @@
 ---
-weight: 100
-title: "Overview"
+weight: 101
+title: "General architecture"
 description: ""
 icon: "article"
 date: "2024-06-04T15:57:03+02:00"
 lastmod: "2024-06-04T15:57:03+02:00"
 toc: true
 ---
+
+The system consists four components:
+
+- Web application (front-end)
+- Mobile application
+- Server-side application (back-end)
+- Database.
+
+Except for the mobile application, all components are containerized with Docker and orchestrated by Kubernetes.
 
 ```mermaid
 graph TB
