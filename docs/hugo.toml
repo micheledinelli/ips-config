@@ -18,6 +18,7 @@ enableEmoji = true
 
         [params.footer]
             copyright = "© Michele Dinelli"
+            version = true
 
         [params.social]
             github = "micheledinelli/ips-config"
@@ -25,7 +26,9 @@ enableEmoji = true
         [params.docs]
             sidebarIcons = true
             darkMode = true
-            intLinkTooltip   = true
+            intLinkTooltip = true
+            backToTop = true
+            themeColor = "blue"
         
     [menu]
     [[menu.primary]]

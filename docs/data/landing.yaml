@@ -65,5 +65,19 @@ featureGrid:
         text: learn more
         url: docs/
 
+    - title: Containerized
+      icon: deployed_code
+      description: Cloud native solution.
+      ctaLink:
+        text: learn more
+        url: docs/
+
+    - title: In-app notification
+      icon: smartphone
+      description: Receive live notification.
+      ctaLink:
+        text: learn more
+        url: docs/
+
 imageCompare:
   enable: false

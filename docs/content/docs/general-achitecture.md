@@ -1,5 +1,5 @@
 ---
-weight: 101
+weight: 100
 title: "General architecture"
 description: ""
 icon: "article"
